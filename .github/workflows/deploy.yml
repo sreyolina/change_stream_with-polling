@@ -1,0 +1,19 @@
+github-cicd-pipeline
+├── .github
+│   └── workflows
+│       ├── build.yml
+│       ├── deploy.yml
+│       └── test.yml
+├── scripts
+│   ├── build.sh
+│   ├── deploy.sh
+│   └── test.sh
+├── tests
+│   └── unit
+│       └── test_app.js
+├── src
+│   └── app.js
+├── package.json
+├── .env.example
+├── .gitignore
+└── README.md
