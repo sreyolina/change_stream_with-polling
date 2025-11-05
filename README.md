@@ -38,7 +38,14 @@ github-cicd-pipeline
 
 2. **Install dependencies:**
    ```bash
+   **Amazon Linux:**
+   sudo yum install python3 python3-pip -y
    npm install
+   pip3 install pymongo
+   pip3 install pymongo python-dotenv tqdm
+   pip install boto3
+   pip install motor
+   pip3 install --upgrade requests urllib3 chardet
    ```
 
 3. **Create a `.env` file:**
