@@ -49,11 +49,12 @@ github-cicd-pipeline
    ```
 
 3. **Create a `.env` file:**
-   Copy the `.env.example` to `.env` and fill in the required environment variables.
+   Copy the `.env` to `.env` and fill in the required environment variables.
 
 4. **Run the application:**
    ```bash
-   node src/app.js
+   nohup python3.7 poll_sync.py > sync.log 2>&1 &
+ 
    ```
 
 ## CI/CD Workflows
