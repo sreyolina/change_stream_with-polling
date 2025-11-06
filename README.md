@@ -21,7 +21,7 @@ github-cicd-pipeline
 │   └── unit
 │       └── test_app.js
 ├── src
-│   └── app.js
+│   └── poll_sync.py
 ├── package.json
 ├── .env.example
 ├── .gitignore
